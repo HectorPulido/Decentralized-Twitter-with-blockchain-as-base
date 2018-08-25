@@ -1,0 +1,159 @@
+body, html {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #F3EEE8;
+}
+
+header {
+  height: 4em;
+  background-color: #FFFBF5;
+  margin-bottom: 2em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+#search {
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #292f33;
+  background-color: #FFFBF5;
+  border-color: #e1e8ed;
+  height: 6em;
+}
+
+#send-twit {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 1.5em;
+  resize: none;
+}
+
+#send-button {
+  background: #4286f4;
+  border-color: transparent;
+  border-radius: 1em;
+  color: #FFFBF5;
+  font-size: 1.5em;
+  height: 2em;
+  margin-top: 0.5em;
+}
+
+#send-button:hover {
+  background: #FFFBF5;
+  border-color: #4286f4;
+  color: #4286f4;
+  cursor: pointer;
+}
+
+header .circle {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+  border-color: #e1e8ed;
+}
+
+.feather {
+  border-right: 1px solid #e1e8ed;
+}
+
+.feather .circle {
+  background-color: #78A7CE;
+}
+
+header .fa-leaf {
+  color: #fff;
+}
+
+header .fa {
+  font-size: 20px;
+}
+
+.tweets {
+  width: 800px;
+  background-color: #FFFBF5;
+}
+
+.tweet {
+  width: 100%;
+  padding: 30px;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet-pic {
+  width: 50px;
+  height: 50px;
+  border-color: #e1e8ed;
+  margin: 0 10px;
+  flex-shrink: 0;
+}
+
+.tweet-pic .fa-user {
+  font-size: 30px;
+}
+
+.tweet-content {
+  color: #8899a6;
+  width: 700px;
+}
+
+.name {
+  color: #292f33;
+}
+
+.when {
+  padding-right: 15px;
+}
+
+.tweet-content .fa {
+  padding-right: 15px;
+}
+
+.actual-content {
+  padding: 15px 0;
+}
+
+.tweet-content p {
+  margin: 0;
+}
+
+.tweet-content iframe {
+  width: 700px;
+  height: 350px;
+}
+
+header {
+  justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  header {
+    flex-wrap: wrap;
+    height: 8em;
+    #justify-content: center;
+  }
+
+  .categorybar {
+    width: 100%;
+  }
+
+  .category {
+    width: 48%;
+  }
+
+  .tweets {
+    width: 100%;
+  }
+}

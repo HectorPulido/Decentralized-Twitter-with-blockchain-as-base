@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>twitter-clone</title>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://npmcdn.com/basscss@8.0.1/css/basscss.min.css'>
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+
+  <html>
+    <body>
+      <header class="flex items-center">
+        <div class="flex items-center justify-center">
+        <div class="feather">
+          <div class="circle border flex items-center justify-center">
+            <i class="fa fa-leaf" aria-hidden="true"></i>
+          </div>
+        </div>    
+      </header>
+      <main class="flex flex-column items-center">
+        <div class="send-panel">
+          <div id="search" class="flex border">
+            <textarea type="text" id="send-twit" placeholder="What is going on...?" cols="30" rows="3"></textarea>
+            <button id="send-button" onclick="SendClick()">Send</button>
+          </div>
+        <div class="tweets" id="tweets">
+        </div>
+      </main>
+      <footer>
+      </footer>
+    </body>
+    <script src='https://use.fontawesome.com/99c4b061a4.js'></script>
+    <script  src="js/index.js"></script>
+  </body>
+
+</html>
